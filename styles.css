@@ -126,8 +126,15 @@
  }
 
  .btn-secondary {
-     background-color: rgb(216, 216, 216) !important;
+     background-color: rgb(255, 255, 255) !important;
      color: rgb(84, 84, 84) !important;
+     border: 1px solid rgb(168, 168, 168) !important;
+     border-radius: 6px !important;
+ }
+
+ .btn-secondary:hover {
+     background-color: rgb(218, 218, 218) !important;
+     color: rgb(54, 54, 54) !important;
      border: 1px solid rgb(168, 168, 168) !important;
  }
 
