@@ -98,6 +98,10 @@
 
  }
 
+ .hero-section .btn {
+     margin-right: 20px;
+ }
+
  .button-container a {
      margin-right: 20px;
  }
@@ -226,7 +230,7 @@
      }
 
      .button-container {
-         text-align: center;
+         text-align: left;
      }
 
      .navbar-collapse {
