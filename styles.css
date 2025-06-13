@@ -14,6 +14,21 @@
      padding: 0 1em;
  }
 
+ .logo-container {
+     height: 30px;
+     max-width: 380px;
+     padding-left: 0px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+
+ }
+
+ .logo-container img {
+     max-width: 270px;
+ }
+
+
  .hero-section {
      display: flex;
      justify-content: space-around;
@@ -242,6 +257,19 @@
 
      }
 
+     .logo-container {
+         height: 30px;
+         max-width: 300px;
+         padding-left: 0px;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+
+     }
+
+     .logo-container img {
+         max-width: 230px;
+     }
 
  }
 
