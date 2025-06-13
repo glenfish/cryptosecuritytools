@@ -77,6 +77,15 @@
 
  .button-container {
      text-align: left;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 100%;
+
+ }
+
+ .button-container a {
+     margin-right: 20px;
  }
 
  #section-box {
