@@ -1,0 +1,229 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     background-color: #fff;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: rgb(255, 255, 255);
+ }
+
+ #pagecontainer {
+     max-width: 1024px;
+     margin: auto;
+     padding: 0 1em;
+ }
+
+ .hero-section {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 2rem 2rem;
+     max-width: 1024px;
+     margin: -20px auto 0 auto;
+     /* background-color: rgb(251, 251, 251); */
+ }
+
+ .hero-image {
+     flex: 1 1 400px;
+     max-width: 600px;
+     min-width: 380px;
+     padding: 1rem;
+ }
+
+ .hero-image img {
+     width: 100%;
+     height: auto;
+     border-radius: 8px;
+ }
+
+ .hero-text {
+     flex: 1 1 400px;
+     max-width: 600px;
+     padding: 1rem;
+ }
+
+ .hero-text h1 {
+     font-size: 2.5rem;
+     font-weight: 600;
+     line-height: 1.3em;
+ }
+
+ .lead {
+     font-size: 1.45rem;
+     color: #444;
+     margin-bottom: 2rem;
+ }
+
+ .hero-text .btn-primary {
+     padding: 0.75rem 1.5rem;
+     font-size: 1.1rem;
+ }
+
+ .center {
+     text-align: center;
+ }
+
+ section {
+     scroll-margin-top: 80px;
+     /* for anchor targeting */
+
+ }
+
+ .container {
+     padding-top: 20px;
+ }
+
+ .button-container {
+     text-align: left;
+ }
+
+ #section-box {
+     margin: auto;
+ }
+
+ .italic {
+     font-style: italic;
+ }
+
+ .bold {
+     font-weight: bold;
+ }
+
+ .bullet {
+     color: #666;
+     /* or use your brand's muted blue or slate */
+     margin-right: 0.5em;
+     vertical-align: middle;
+     opacity: 0.3;
+ }
+
+ #encryptfire-section {
+     background-color: rgb(255, 255, 255);
+ }
+
+ #main-navbar {
+     z-index: 1030;
+     /* Ensures it stays above other elements */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+     /* Subtle shadow for elevation */
+     height: 60px;
+
+ }
+
+
+ .navbar .container {
+     padding-top: 0px;
+     position: relative;
+     top: -2px;
+     max-width: 840px;
+ }
+
+ .navbar-nav .nav-link:hover {
+     color: #0d6efd;
+     /* Bootstrap primary */
+ }
+
+ .navbar-brand,
+ .navbar-nav .nav-link {
+     display: flex;
+     align-items: center;
+     height: 100%;
+     padding-top: 0.5rem;
+     padding-bottom: 0.5rem;
+ }
+
+ .navbar-nav .nav-link.active {
+     color: #729cdb;
+     font-weight: 500;
+ }
+
+ .navbar-toggler {
+     padding: 0.25rem 0.75rem;
+     margin: 0.5rem;
+     border: none;
+ }
+
+ .download-pdf {
+     width: 220px;
+ }
+
+ .footer {
+     margin-top: 80px !important;
+     background-color: rgb(239, 239, 239);
+     color: rgb(152, 152, 152);
+     font-weight: normal !important;
+     border-top: 1px solid rgb(210, 210, 210) !important;
+     font-size: 0.875rem !important;
+     padding-bottom: 40px !important;
+ }
+
+ footer a {
+     text-decoration: none !important;
+     font-size: 120%;
+ }
+
+ button,
+ .btn {
+     transition: all 0.3s ease;
+ }
+
+ button:hover,
+ .btn:hover {
+     opacity: 0.85;
+ }
+
+
+ @media (max-width: 768px) {
+     .hero-text h1 {
+         font-size: 2rem;
+     }
+
+     .lead {
+         font-size: 1.2rem;
+     }
+
+     .button-container {
+         text-align: center;
+     }
+
+     .navbar-collapse {
+         background-color: #d3d3d3;
+         margin-top: 0rem;
+         border-radius: 0.25rem;
+         position: relative;
+         z-index: 100000;
+
+     }
+
+
+ }
+
+ #learn-more {
+     max-width: 760px;
+     margin: auto;
+     margin-top: 30px !important;
+     margin-bottom: 100px !important;
+     border: 1px solid rgb(237, 237, 237);
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     border-radius: 4px;
+ }
+
+ @media (max-width: 991px) {
+     .navbar .container {
+         padding-top: 0px;
+         position: relative;
+         top: -7px;
+     }
+
+     .navbar-collapse {
+         background-color: #f0f0f0;
+         margin-top: 0rem;
+         border-radius: 0.25rem;
+         position: relative;
+         z-index: 100000;
+         padding: 20px;
+
+     }
+ }
