@@ -53,7 +53,7 @@
  .lead {
      font-size: 1.45rem;
      color: #444;
-     margin-bottom: 2rem;
+     margin-bottom: 0.5rem;
  }
 
  .hero-text .btn-primary {
@@ -195,6 +195,11 @@
 
      .lead {
          font-size: 1.2rem;
+     }
+
+     .lead-tight {
+         font-size: 1.0rem;
+         padding-top: 0px;
      }
 
      .button-container {
