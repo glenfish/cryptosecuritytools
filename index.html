@@ -10,6 +10,7 @@
 <body data-bs-spy="scroll" data-bs-target="#navbarMenu" data-bs-offset="80" tabindex="0">
 
     <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top">
+      
     <div class="container">
         <a class="navbar-brand fw-bold" href="#">Crypto Security Tools</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
@@ -35,13 +36,14 @@
             </li>
         </ul>
         </div>
+        
     </div>
     </nav>
 
  <section class="shadow-sm bg-light">
   <div class="hero-section">
     <div class="hero-image">
-      <img src="./files/phone-based-wallet.png" alt="Crypto software wallet on phone">
+      <img src="./files/phone-based-wallet.png" alt="Crypto software wallet on phone" class="img-fluid fade-in">
     </div>
     <div class="hero-text">
       <h1>Holistic Digital Asset Protection</h1>
@@ -132,7 +134,7 @@ Whether you're safeguarding your own crypto or supporting others, our solutions 
 
       <!-- IMAGE COLUMN -->
       <div class="col-lg-6 col-md-12 text-center order-1 order-lg-2 mb-4 mb-lg-0">
-        <img src="./files/who-we-serve.png" alt="Secure Digital Assets Tablet View" class="img-fluid rounded shadow" />
+        <img src="./files/who-we-serve.png" alt="Secure Digital Assets Tablet View" class="img-fluid rounded shadow fade-in"/>
       </div>
 
     </div>
@@ -200,7 +202,7 @@ Whether you're safeguarding your own crypto or supporting others, our solutions 
 <section class="py-5 my-5 shadow-sm rounded border" id="encryptfire-section">
   <div class="container text-center">
     <div class="my-4">
-      <img src="./files/ef-logo.png" alt="EncryptFire App Screenshot" class="img-fluid " style="max-width: 360px;">
+      <img src="./files/ef-logo.png" alt="EncryptFire App Screenshot" class="img-fluid " style="max-width: 440px; width: 100%;">
     </div>
     <p class="lead">Our flagship web application</p>
     <p class="fs-5 fs-md-7 text-muted mb-4 px-5">
@@ -208,7 +210,7 @@ Whether you're safeguarding your own crypto or supporting others, our solutions 
     </p>
 
     <div class="my-4">
-      <img src="./files/ledger-nano-wallet-backup.png" alt="EncryptFire App Screenshot" class="img-fluid " style="max-width: 420px;">
+      <img src="./files/ledger-nano-wallet-backup.png" alt="EncryptFire App Screenshot" class="img-fluid fade-in">
     </div>
     <div class="mt-4 mb-4 d-flex justify-content-center">
   <ul class="list-unstyled fs-5 fs-md-7 text-muted" style="max-width: 720px; text-align: left;">
@@ -344,6 +346,30 @@ Whether you're safeguarding your own crypto or supporting others, our solutions 
     });
   });
 </script>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          obs.unobserve(entry.target); // fade in only once
+        }
+      });
+    }, {
+      threshold: 0.1 // triggers when 10% of image is visible
+    });
+
+    document.querySelectorAll('.fade-in').forEach(img => {
+      observer.observe(img);
+    });
+  });
+</script>
+
+
+
 
 </body>
 </html>
