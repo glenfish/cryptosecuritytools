@@ -156,7 +156,7 @@
      font-weight: normal !important;
      border-top: 1px solid rgb(210, 210, 210) !important;
      font-size: 0.875rem !important;
-     padding-bottom: 40px !important;
+     padding: 40px !important;
  }
 
  footer a {
@@ -234,7 +234,7 @@
      }
 
      .hero-image img {
-         width: 240px;
+         width: 280px;
          padding: 0rem;
 
      }
@@ -255,10 +255,8 @@
          /* background-color: rgb(251, 251, 251); */
      }
 
-     .img-fluid {}
 
  }
-
 
  @media (max-width: 991px) {
      .navbar .container {
