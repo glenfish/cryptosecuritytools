@@ -153,8 +153,8 @@
  }
 
  .btn-secondary:hover {
-     background-color: rgb(218, 218, 218) !important;
-     color: rgb(54, 54, 54) !important;
+     background-color: rgb(141, 141, 141) !important;
+     color: rgb(255, 255, 255) !important;
      border: 1px solid rgb(168, 168, 168) !important;
  }
 
