@@ -431,3 +431,21 @@
          display: none;
      }
  }
+
+ @media (max-width: 935px) {
+     .hero-text {
+         flex: 1 1 400px;
+         max-width: 600px;
+         padding: 1rem;
+         margin: auto;
+     }
+ }
+
+ @media (max-width: 767px) {
+     .hero-text {
+         flex: 1 1 400px;
+         max-width: 480px;
+         padding: 1rem;
+         margin: auto;
+     }
+ }
