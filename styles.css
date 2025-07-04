@@ -281,6 +281,10 @@
      transform: translateY(0);
  }
 
+ .crypto-wallets {
+     max-height: 500px !important;
+ }
+
 
 
 
@@ -288,6 +292,8 @@
      .hero-text h1 {
          font-size: 2rem;
      }
+
+
 
      .lead {
          font-size: 1.2rem;
@@ -368,6 +374,10 @@
          margin: -10px auto 0 auto;
          overflow: hidden;
          /* background-color: rgb(251, 251, 251); */
+     }
+
+     .crypto-wallets {
+         margin-top: 10px !important;
      }
 
 
