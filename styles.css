@@ -282,9 +282,13 @@
  }
 
  .crypto-wallets {
-     max-height: 500px !important;
+     max-height: 500px;
+     height: auto;
      width: auto;
+     max-width: 100%;
+     display: block;
  }
+
 
 
 
