@@ -475,12 +475,13 @@
      }
 
      .hero-image {
-         flex: 1 1 50%;
-         max-width: 50%;
+         flex: 1 1 60%;
+         max-width: 60%;
+         padding-right: 2rem;
      }
 
      .hero-text {
-         flex: 1 1 50%;
-         max-width: 50%;
+         flex: 1 1 40%;
+         max-width: 40%;
      }
  }
