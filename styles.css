@@ -467,3 +467,20 @@
          margin: auto;
      }
  }
+
+
+ @media (min-width: 768px) {
+     .hero-section {
+         flex-wrap: nowrap;
+     }
+
+     .hero-image {
+         flex: 1 1 50%;
+         max-width: 50%;
+     }
+
+     .hero-text {
+         flex: 1 1 50%;
+         max-width: 50%;
+     }
+ }
